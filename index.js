@@ -1,5 +1,3 @@
-
-
 const selectIndex = (totalIndex, selectingNumber) => {
   let randomIndexArray = [];
   let j=0;
@@ -34,8 +32,8 @@ const selectIndex = (totalIndex, selectingNumber) => {
 const val = document.getElementById('value');
 
 const student = [0,'장준용','정지원','조윤서','준서','최선혜','홍수민',
-'아이부케','신동훈','유민호','강혜원','양은서','이다애'];
+'아이부케','신동훈','유민호','강혜원','양은서'];
 
 function ck(){
-  selectIndex(12, 12);
+  selectIndex(11, 11);
 }
